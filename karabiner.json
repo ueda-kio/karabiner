@@ -16,11 +16,11 @@
                 },
                 "rules": [
                     {
-                        "description": "k855",
+                        "description": "持ち運び",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "right_command",
+                                    "key_code": "left_option",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -29,29 +29,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f11"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "right_option",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "a",
-                                        "modifiers": [
-                                            "left_shift",
-                                            "left_control",
-                                            "left_command",
-                                            "left_option"
-                                        ]
+                                        "key_code": "left_command"
                                     }
                                 ],
                                 "type": "basic"
@@ -59,7 +37,28 @@
                         ]
                     },
                     {
-                        "description": "CapsLock to ⌘",
+                        "description": "持ち運び",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "left_command",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_option"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "持ち運び",
                         "manipulators": [
                             {
                                 "from": {
@@ -72,7 +71,28 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_command"
+                                        "key_code": "left_control"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "持ち運び",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "left_control",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_command"
                                     }
                                 ],
                                 "type": "basic"
@@ -93,7 +113,11 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "japanese_eisuu"
+                                        "key_code": "quote",
+                                        "modifiers": [
+                                            "control",
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -109,7 +133,11 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "japanese_kana"
+                                        "key_code": "j",
+                                        "modifiers": [
+                                            "control",
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -308,17 +336,6 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "page_down"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "/usr/local/bin/code /Users/01046083/Desktop/test_env"
-                                    }
-                                ],
-                                "type": "basic"
                             }
                         ]
                     },
@@ -476,22 +493,6 @@
                     {
                         "description": "escape",
                         "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "grave_accent_and_tilde",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_command"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "return_or_enter"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
                             {
                                 "from": {
                                     "key_code": "grave_accent_and_tilde",
