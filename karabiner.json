@@ -265,6 +265,17 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "page_down"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a /System/Applications/TextEdit.app /Users/01046083/Desktop/my-repos/slack-api/docs/report.txt"
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
