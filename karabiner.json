@@ -37,6 +37,27 @@
                         ]
                     },
                     {
+                        "description": "insert to CapsLock",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "insert",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "caps_lock"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "入力ソース変更",
                         "manipulators": [
                             {
