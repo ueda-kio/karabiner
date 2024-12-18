@@ -271,7 +271,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a /System/Applications/Utilities/Terminal.app"
+                                        "key_code": "delete_forward",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -282,7 +285,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a /Applications/Bear.app"
+                                        "key_code": "end",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -293,7 +299,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a /System/Applications/TextEdit.app /Users/01046083/Desktop/my-repos/slack-api/docs/report.txt"
+                                        "key_code": "page_down",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
