@@ -79,6 +79,22 @@
                                 "from": {
                                     "key_code": "o",
                                     "modifiers": {
+                                        "mandatory": ["control", "left_command"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "o",
+                                        "modifiers": ["left_control"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
                                         "mandatory": ["control"],
                                         "optional": ["any"]
                                     }
